@@ -1,24 +1,47 @@
 .starting{
-        width: 500px;
-        height: 35px;
+        height: 60%;
         border-radius: 5px;
         background-color: rgb(87, 23, 17);
+        width: 76%;
+        margin-inline: auto;
     }
-#startingtext{
-    font-size: 30px;
-    color: rgb(161, 185, 255);
-    text-align: center;
-}
 
 .main{
-    width: 650px;
-    height: 300px;
+    height: 30%;
     border-radius: 10px;
     background-color: rgb(3, 60, 0);
-}
+    width: 80%; 
+    margin-inline: auto;
+    }
+
+#startingtext{
+    font-family: 'Arial', sans-serif;
+    font-size: 60px;
+    color: rgb(161, 185, 255);
+    text-align: center;
+    }
+
  #maintext{
+    font-family: 'Aaargh', sans-serif;
     font-size: 25px;
     color: rgb(255, 144, 144);
     text-align: center;
 
+    }
+body {
+    background-color: rgb(0, 11, 31);
+}
+/*cool aniation which definetly did not take me 20 mins to research how to make*/
+ @keyframes revealsite {
+    from{
+        filter: blur(20px); /*make the site blured*/
+    }
+
+    to{
+        filter: blur(0px);
+    }
  }
+.unblur{
+    animation: revealsite 3s ease-out forwards;
+    will-change: filter;
+}
