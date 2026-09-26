@@ -1,6 +1,6 @@
 # mangoman’s site
 a small personal website for stuff about me and things i’m working on.
-[the site in action](image-1.png)
+![the site in action](image-1.png)
 ## live site
 [the site](https://personal-site-tan-phi.vercel.app/)
 ## about
