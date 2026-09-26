@@ -33,15 +33,24 @@ body {
 }
 /*cool aniation which definetly did not take me 20 mins to research how to make*/
  @keyframes revealsite {
-    from{
+    0%{
         filter: blur(20px); /*make the site blured*/
+        transform: scale(0.8);
+
     }
 
-    to{
+    66%{ /* zoom in */
+        transform: scale(1);
+    }
+
+    100%{
         filter: blur(0px);
+        transform: scale(1);
+
     }
  }
 .unblur{
-    animation: revealsite 3s ease-out forwards;
+    animation: revealsite 1s ease-out forwards;
+    transform-origin: center center;
     will-change: filter;
 }
